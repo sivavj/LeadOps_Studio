@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="LeadOps Studio services: Lead-focused websites, Google Search Ads, and tracking & reporting for local businesses."
+    />
+    <title>Services - LeadOps Studio</title>
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "brand-blue": "#2563eb",
+              "brand-green": "#10b981",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+    <!-- Google Tag Manager (placeholder) -->
+    <script>
+      // GTM placeholder - replace with actual GTM code
+      // (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      // new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      // j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      // 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      // })(window,document,'script','dataLayer','GTM-XXXXXXX');
+    </script>
+    <!-- GA4 placeholder -->
+    <script>
+      // GA4 placeholder - replace with actual GA4 code
+      // window.dataLayer = window.dataLayer || [];
+      // function gtag(){dataLayer.push(arguments);}
+      // gtag('js', new Date());
+      // gtag('config', 'G-XXXXXXXXXX');
+    </script>
+  </head>
+  <body class="bg-white text-gray-900">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-16">
+          <div class="flex-shrink-0">
+            <a href="index.html" class="flex items-center">
+              <img src="/logo.png" alt="LeadOps Studio" class="h-10 w-auto" />
+            </a>
+          </div>
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline space-x-8">
+              <a
+                href="index.html"
+                class="text-gray-700 hover:text-brand-blue transition"
+                >Home</a
+              >
+              <a href="services.html" class="text-brand-blue font-medium"
+                >Services</a
+              >
+              <a
+                href="process.html"
+                class="text-gray-700 hover:text-brand-blue transition"
+                >Process</a
+              >
+              <a
+                href="audit.html"
+                class="text-gray-700 hover:text-brand-blue transition"
+                >Free Audit</a
+              >
+              <a
+                href="contact.html"
+                class="text-gray-700 hover:text-brand-blue transition"
+                >Contact</a
+              >
+            </div>
+          </div>
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-button"
+              class="text-gray-700 hover:text-brand-blue"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="index.html"
+            class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >Home</a
+          >
+          <a
+            href="services.html"
+            class="block px-3 py-2 text-brand-blue font-medium"
+            >Services</a
+          >
+          <a
+            href="process.html"
+            class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >Process</a
+          >
+          <a
+            href="audit.html"
+            class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >Free Audit</a
+          >
+          <a
+            href="contact.html"
+            class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="bg-gradient-to-br from-blue-50 to-green-50 py-16 md:py-24">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          Services That Generate Leads
+        </h1>
+        <p class="text-xl text-gray-700 max-w-3xl mx-auto">
+          Three core services designed to work together, turning your website
+          into a lead generation machine.
+        </p>
+      </div>
+    </section>
+
+    <!-- Lead-Focused Websites -->
+    <section id="websites" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-brand-blue"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+              Lead-Focused Websites
+            </h2>
+            <p class="text-lg text-gray-600 mb-6">
+              Your website shouldn't just look good—it should convert visitors
+              into leads. We build fast, mobile-optimized websites with
+              conversion at the core of every design decision.
+            </p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Mobile-first design</strong> - Over 60% of your
+                  traffic is mobile. We ensure every visitor has a seamless
+                  experience.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Clear call-to-actions</strong> - Prominent buttons
+                  and forms that guide visitors toward enquiry.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Fast loading times</strong> - Optimized for speed.
+                  Slow sites lose visitors and rankings.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Trust signals</strong> - Testimonials,
+                  certifications, and social proof that build confidence.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>SEO optimized</strong> - Built to rank in local
+                  search results.</span
+                >
+              </li>
+            </ul>
+            <a
+              href="audit.html"
+              class="inline-block bg-brand-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            >
+              Get a Free Website Audit
+            </a>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-8">
+            <div
+              class="aspect-video bg-gradient-to-br from-blue-100 to-green-100 rounded-lg flex items-center justify-center"
+            >
+              <p class="text-gray-500 text-lg">Website Preview</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Search Ads -->
+    <section id="ads" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div class="order-2 md:order-1">
+            <div class="bg-gray-50 rounded-lg p-8">
+              <div
+                class="aspect-video bg-gradient-to-br from-green-100 to-blue-100 rounded-lg flex items-center justify-center"
+              >
+                <p class="text-gray-500 text-lg">Google Ads Dashboard</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-1 md:order-2">
+            <div
+              class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-brand-green"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M13 10V3L4 14h7v7l9-11h-7z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+              Google Search Ads
+            </h2>
+            <p class="text-lg text-gray-600 mb-6">
+              Place your business in front of people actively searching for your
+              services. We focus on high-intent keywords that convert, not just
+              clicks.
+            </p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Keyword research</strong> - We identify the exact
+                  terms your customers use when searching.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Ad copy optimization</strong> - Compelling headlines
+                  and descriptions that drive clicks from qualified
+                  prospects.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Landing page alignment</strong> - Ads connect
+                  seamlessly to conversion-optimized landing pages.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Budget management</strong> - Smart bidding strategies
+                  that maximize ROI within your budget.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Continuous optimization</strong> - Regular testing
+                  and refinement to improve performance.</span
+                >
+              </li>
+            </ul>
+            <a
+              href="audit.html"
+              class="inline-block bg-brand-green text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition"
+            >
+              Get a Free Ads Audit
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tracking & Reporting -->
+    <section id="tracking" class="py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-2 gap-12 items-center">
+          <div>
+            <div
+              class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6"
+            >
+              <svg
+                class="w-8 h-8 text-brand-blue"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                />
+              </svg>
+            </div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-6">
+              Tracking & Reporting
+            </h2>
+            <p class="text-lg text-gray-600 mb-6">
+              You can't improve what you don't measure. We set up comprehensive
+              tracking and provide transparent monthly reports showing exactly
+              what's working.
+            </p>
+            <ul class="space-y-4 mb-8">
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Conversion tracking</strong> - Track every form
+                  submission, phone call, and WhatsApp message back to the
+                  source.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Google Analytics & Tag Manager</strong> -
+                  Professional setup with custom events and goals.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Monthly reports</strong> - Clear, actionable reports
+                  showing leads generated, cost per lead, and ROI.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Attribution modeling</strong> - Understand which ads,
+                  keywords, and pages drive the most valuable leads.</span
+                >
+              </li>
+              <li class="flex items-start">
+                <svg
+                  class="w-6 h-6 text-brand-green mr-3 flex-shrink-0 mt-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M5 13l4 4L19 7"
+                  />
+                </svg>
+                <span class="text-gray-700"
+                  ><strong>Real-time dashboards</strong> - Access your data
+                  anytime with easy-to-understand visualizations.</span
+                >
+              </li>
+            </ul>
+            <a
+              href="audit.html"
+              class="inline-block bg-brand-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
+            >
+              Get a Free Tracking Audit
+            </a>
+          </div>
+          <div class="bg-gray-50 rounded-lg p-8">
+            <div
+              class="aspect-video bg-gradient-to-br from-blue-100 to-green-100 rounded-lg flex items-center justify-center"
+            >
+              <p class="text-gray-500 text-lg">Analytics Dashboard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-20 bg-gradient-to-r from-brand-blue to-brand-green">
+      <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
+          Ready to See How We Can Help?
+        </h2>
+        <p class="text-xl text-blue-50 mb-8">
+          Get a free audit of your current lead generation setup. No obligation,
+          just actionable insights.
+        </p>
+        <a
+          href="audit.html"
+          class="inline-block bg-white text-brand-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition shadow-lg hover:shadow-xl"
+        >
+          Get Your Free Lead Audit
+        </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid md:grid-cols-4 gap-8">
+          <div>
+            <img
+              src="/logo_dark.png"
+              alt="LeadOps Studio"
+              class="h-8 w-auto mb-4"
+            />
+            <p class="mb-4">More Enquiries. Measurable Results.</p>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Services</h4>
+            <ul class="space-y-2">
+              <li>
+                <a
+                  href="services.html#websites"
+                  class="hover:text-white transition"
+                  >Lead-Focused Websites</a
+                >
+              </li>
+              <li>
+                <a href="services.html#ads" class="hover:text-white transition"
+                  >Google Search Ads</a
+                >
+              </li>
+              <li>
+                <a
+                  href="services.html#tracking"
+                  class="hover:text-white transition"
+                  >Tracking & Reporting</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Company</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="process.html" class="hover:text-white transition"
+                  >Our Process</a
+                >
+              </li>
+              <li>
+                <a href="audit.html" class="hover:text-white transition"
+                  >Free Audit</a
+                >
+              </li>
+              <li>
+                <a href="contact.html" class="hover:text-white transition"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-white font-semibold mb-4">Get in Touch</h4>
+            <ul class="space-y-2">
+              <li>
+                <a href="tel:+919095506362" class="hover:text-white transition"
+                  >Call Us</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/919095506362?text=Hi%20LeadOps%20Studio%20%F0%9F%91%8B%0A%0AI%27m%20interested%20in%20generating%20more%20enquiries%20for%20my%20business.%0A%0AName%3A%0ABusiness%20Name%3A%0AWebsite%20%28if%20any%29%3A%0AService%20Interested%20In%3A%20%28Google%20Ads%20%2F%20Website%20%2F%20Tracking%20%2F%20Free%20Audit%29%0A%0AI%20reached%20you%20from%20your%20website."
+                  target="_blank"
+                  class="hover:text-white transition"
+                  >WhatsApp</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:leadopsstudio@gmail.com"
+                  class="hover:text-white transition"
+                  >Email</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-gray-800 mt-8 pt-8 text-center text-sm">
+          <p>&copy; 2024 LeadOps Studio. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Sticky WhatsApp Button -->
+    <a
+      href="https://wa.me/919095506362?text=Hi%20LeadOps%20Studio%20%F0%9F%91%8B%0A%0AI%27m%20interested%20in%20generating%20more%20enquiries%20for%20my%20business.%0A%0AName%3A%0ABusiness%20Name%3A%0AWebsite%20%28if%20any%29%3A%0AService%20Interested%20In%3A%20%28Google%20Ads%20%2F%20Website%20%2F%20Tracking%20%2F%20Free%20Audit%29%0A%0AI%20reached%20you%20from%20your%20website."
+      target="_blank"
+      class="fixed bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
+    >
+      <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+    </a>
+
+    <script>
+      document
+        .getElementById("mobile-menu-button")
+        .addEventListener("click", function () {
+          const menu = document.getElementById("mobile-menu");
+          menu.classList.toggle("hidden");
+        });
+    </script>
+  </body>
+</html>
