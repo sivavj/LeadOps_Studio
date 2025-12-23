@@ -23,6 +23,13 @@
   </url>
 
   <url>
+    <loc>https://leadopsstudio.in/pricing.html</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
     <loc>https://leadopsstudio.in/audit.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
@@ -44,7 +51,7 @@
   </url>
 
   <url>
-   <loc>terms-of-serviceoc>https://leadopsstudio.in/terms-of-service.html</loc>
+    <loc>https://leadopsstudio.in/terms-of-service.html</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

@@ -66,10 +66,6 @@
       }
     </script>
     <style>
-      /* Smooth scrolling */
-      html {
-        scroll-behavior: smooth;
-      }
       /* Apply Poppins globally */
       body {
         font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -130,22 +126,19 @@
               <a href="index.html" class="text-brand-blue font-medium">Home</a>
               <a
                 href="services.html"
-                class="text-gray-700 hover:text-brand-blue transition"
+                class="text-gray-700 hover:text-brand-blue"
                 >Services</a
               >
-              <a
-                href="process.html"
-                class="text-gray-700 hover:text-brand-blue transition"
+              <a href="pricing.html" class="text-gray-700 hover:text-brand-blue"
+                >Pricing</a
+              >
+              <a href="process.html" class="text-gray-700 hover:text-brand-blue"
                 >Process</a
               >
-              <a
-                href="audit.html"
-                class="text-gray-700 hover:text-brand-blue transition"
+              <a href="audit.html" class="text-gray-700 hover:text-brand-blue"
                 >Free Audit</a
               >
-              <a
-                href="contact.html"
-                class="text-gray-700 hover:text-brand-blue transition"
+              <a href="contact.html" class="text-gray-700 hover:text-brand-blue"
                 >Contact</a
               >
             </div>
@@ -184,6 +177,11 @@
             href="services.html"
             class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
             >Services</a
+          >
+          <a
+            href="pricing.html"
+            class="block px-3 py-2 text-gray-700 hover:text-brand-blue"
+            >Pricing</a
           >
           <a
             href="process.html"
@@ -230,14 +228,14 @@
           >
             <a
               href="audit.html"
-              class="bg-brand-blue text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-xl"
+              class="bg-brand-blue text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-blue-700 shadow-lg hover:shadow-xl"
             >
               See What's Missing (Free Audit)
             </a>
             <a
               href="https://wa.me/919095506362?text=Hi%20LeadOps%20Studio%20%F0%9F%91%8B%0A%0AI%27m%20interested%20in%20generating%20more%20enquiries%20for%20my%20business.%0A%0AName%3A%0ABusiness%20Name%3A%0AWebsite%20%28if%20any%29%3A%0AService%20Interested%20In%3A%20%28Google%20Ads%20%2F%20Website%20%2F%20Tracking%20%2F%20Free%20Audit%29%0A%0AI%20reached%20you%20from%20your%20website."
               target="_blank"
-              class="bg-brand-green text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-green-600 transition shadow-lg hover:shadow-xl flex items-center gap-2"
+              class="bg-brand-green text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-green-600 shadow-lg hover:shadow-xl flex items-center gap-2"
             >
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                 <path
@@ -259,7 +257,7 @@
             Who This Is For
           </h2>
           <p
-            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6]"
+            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6]-delay"
           >
             Local businesses in Tamil Nadu who want more calls, WhatsApp leads,
             and enquiries—without wasting money on ads that don't convert.
@@ -431,7 +429,7 @@
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Why Most Websites Don't Generate Leads
           </h2>
-          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto-delay">
             Your website might look great, but if it's not built for
             conversions, it's just an expensive business card online.
           </p>
@@ -545,16 +543,18 @@
             Trusted by Local Businesses in Tamil Nadu
           </h2>
           <p
-            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6]"
+            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6]-delay"
           >
             We work directly with business owners—no call centers, no middlemen.
             Fast response times and transparent tracking.
           </p>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <div class="bg-white p-6 rounded-lg border border-gray-200">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+          <div
+            class="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg h-full flex flex-col"
+          >
             <div
-              class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4"
+              class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 flex-shrink-0"
             >
               <svg
                 class="w-5 h-5 text-brand-blue"
@@ -577,7 +577,7 @@
               </svg>
             </div>
             <h3 class="text-lg font-semibold mb-2">Service Areas</h3>
-            <p class="text-gray-600 text-[15px] leading-[1.6]">
+            <p class="text-gray-600 text-[15px] leading-[1.6] flex-grow">
               Kangeyam, Tiruppur, Erode, Coimbatore, and nearby areas in Tamil
               Nadu.<br />
               <span class="text-gray-500 italic"
@@ -585,9 +585,11 @@
               >
             </p>
           </div>
-          <div class="bg-white p-6 rounded-lg border border-gray-200">
+          <div
+            class="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg h-full flex flex-col"
+          >
             <div
-              class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4"
+              class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4 flex-shrink-0"
             >
               <svg
                 class="w-5 h-5 text-brand-green"
@@ -604,14 +606,16 @@
               </svg>
             </div>
             <h3 class="text-lg font-semibold mb-2">Fast Response Time</h3>
-            <p class="text-gray-600 text-[15px] leading-[1.6]">
+            <p class="text-gray-600 text-[15px] leading-[1.6] flex-grow">
               WhatsApp messages answered within 15–30 minutes during business
               hours. No waiting, no delays.
             </p>
           </div>
-          <div class="bg-white p-6 rounded-lg border border-gray-200">
+          <div
+            class="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg h-full flex flex-col"
+          >
             <div
-              class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4"
+              class="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center mb-4 flex-shrink-0"
             >
               <svg
                 class="w-5 h-5 text-brand-blue"
@@ -628,14 +632,16 @@
               </svg>
             </div>
             <h3 class="text-lg font-semibold mb-2">Direct Communication</h3>
-            <p class="text-gray-600 text-[15px] leading-[1.6]">
+            <p class="text-gray-600 text-[15px] leading-[1.6] flex-grow">
               Speak directly with the person managing your website, ads, and
               tracking. No call centers. No automated replies.
             </p>
           </div>
-          <div class="bg-white p-6 rounded-lg border border-gray-200">
+          <div
+            class="bg-white p-6 rounded-lg border border-gray-200 hover:shadow-lg h-full flex flex-col"
+          >
             <div
-              class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4"
+              class="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center mb-4 flex-shrink-0"
             >
               <svg
                 class="w-5 h-5 text-brand-green"
@@ -654,27 +660,24 @@
             <h3 class="text-lg font-semibold mb-2">
               Transparent Lead Tracking
             </h3>
-            <p class="text-gray-600 text-[15px] leading-[1.6]">
+            <p class="text-gray-600 text-[15px] leading-[1.6] flex-grow">
               See exactly which ads and pages generate calls and WhatsApp
               enquiries. Simple monthly reports with real numbers.
             </p>
           </div>
         </div>
-        <div
-          class="mt-12 max-w-3xl mx-auto bg-white p-6 rounded-lg border border-gray-200"
-        >
-          <p
-            class="text-[15px] md:text-[16px] text-gray-700 leading-[1.6] text-center"
-          >
-            <strong>LeadOps Studio</strong> is an independent web design and
-            lead generation service based in Tamil Nadu, India. We help local
-            businesses generate calls, WhatsApp enquiries, and high-quality
-            leads through conversion-focused websites and Google Ads.
-            <strong
-              >LeadOps Studio is not affiliated with LeadOps.net or any other
-              LeadOps-branded companies.</strong
-            >
-          </p>
+        <div class="max-w-5xl mx-auto px-4 py-6 mt-12">
+          <div class="border-l-4 border-blue-500 bg-blue-50 p-4 rounded-md">
+            <p class="text-sm text-gray-700 leading-relaxed">
+              <strong>LeadOps Studio</strong> is an independent web design and
+              lead generation service based in Tamil Nadu, India. We help local
+              businesses generate calls, WhatsApp enquiries, and high-quality
+              leads through conversion-focused websites and Google Ads.
+              <br /><br />
+              <strong>Note:</strong> LeadOps Studio is not affiliated with
+              LeadOps.net or any other LeadOps-branded companies.
+            </p>
+          </div>
         </div>
       </div>
     </section>
@@ -686,7 +689,7 @@
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             How We Generate Leads: Websites + Google Ads + Tracking
           </h2>
-          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto-delay">
             Three simple parts that work together to bring you more calls,
             WhatsApp messages, and enquiries every month.
           </p>
@@ -782,14 +785,14 @@
           <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             What We Do
           </h2>
-          <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p class="text-xl text-gray-600 max-w-2xl mx-auto-delay">
             Three core services that work together to generate more qualified
             leads for your business.
           </p>
         </div>
         <div class="grid md:grid-cols-3 gap-8">
           <div
-            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue transition"
+            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue"
           >
             <div
               class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6"
@@ -829,7 +832,7 @@
             >
           </div>
           <div
-            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue transition"
+            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue"
           >
             <div
               class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center mb-6"
@@ -865,7 +868,7 @@
             >
           </div>
           <div
-            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue transition"
+            class="bg-white border-2 border-gray-100 rounded-lg p-8 hover:border-brand-blue"
           >
             <div
               class="w-16 h-16 bg-blue-100 rounded-lg flex items-center justify-center mb-6"
@@ -912,12 +915,12 @@
             Example: How We Set Up a Local Lead System
           </h2>
           <p
-            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6] mb-2"
+            class="text-[15px] md:text-[17px] text-gray-600 max-w-2xl mx-auto leading-[1.6] mb-2-delay"
           >
             Here's how we set up a complete lead generation system for a local
             business. This is a demonstration example.
           </p>
-          <p class="text-sm text-gray-500 italic">
+          <p class="text-sm text-gray-500 italic-delay">
             Demo: Local Clinic in Tiruppur
           </p>
         </div>
@@ -1023,17 +1026,43 @@
               </div>
             </div>
           </div>
-          <div class="mt-12 text-center">
-            <p class="text-sm text-gray-500 mb-4">
-              This is a demonstration example. Your results will vary based on
-              your business, location, and market conditions.
-            </p>
-            <a
-              href="audit.html"
-              class="inline-block bg-brand-blue text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-blue-700 transition shadow-lg hover:shadow-xl"
+          <div class="mt-12">
+            <div
+              class="bg-blue-50 border-l-4 border-brand-blue p-4 rounded-lg mb-6"
             >
-              See How This Could Work for Your Business
-            </a>
+              <div class="flex items-start">
+                <div class="flex-shrink-0">
+                  <svg
+                    class="w-5 h-5 text-brand-blue mt-0.5"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                    />
+                  </svg>
+                </div>
+                <div class="ml-3 flex-1">
+                  <p class="text-sm text-gray-700">
+                    <strong>Note:</strong> This is a demonstration example. Your
+                    results will vary based on your business, location, and
+                    market conditions.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a
+                href="audit.html"
+                class="inline-block bg-brand-blue text-white px-8 py-4 rounded-lg text-[15px] md:text-base font-semibold hover:bg-blue-700 shadow-lg hover:shadow-xl"
+              >
+                See How This Could Work for Your Business
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -1141,17 +1170,77 @@
         <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
           Want More Calls & WhatsApp Leads?
         </h2>
-        <p class="text-xl text-blue-50 mb-8">
+        <p class="text-xl text-blue-50 mb-8-delay">
           Get a free audit. We'll check your website, Google presence, and
           tracking—then show you exactly what's missing and how to fix it. No
           sales pressure, just honest feedback.
         </p>
-        <a
-          href="audit.html"
-          class="inline-block bg-white text-brand-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition shadow-lg hover:shadow-xl"
-        >
-          Get Your Free Lead Audit
-        </a>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="audit.html"
+            class="inline-block bg-white text-brand-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 shadow-lg hover:shadow-xl"
+          >
+            Get Your Free Lead Audit
+          </a>
+          <a
+            href="pricing.html"
+            class="inline-block bg-transparent border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-brand-blue shadow-lg hover:shadow-xl"
+          >
+            See Packages & Pricing
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Frequently Asked Questions -->
+    <section id="faq" class="py-20 bg-white">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-3xl font-semibold text-gray-900 text-center mb-8">
+          Frequently Asked Questions
+        </h2>
+
+        <div class="space-y-4">
+          <details class="border rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-gray-900">
+              What services does LeadOps Studio provide?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              We build conversion-focused websites, manage Google Search Ads,
+              and set up call & WhatsApp lead tracking for local businesses.
+            </p>
+          </details>
+
+          <details class="border rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-gray-900">
+              Do you guarantee first-page Google rankings?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              We do not guarantee rankings. We focus on generating real
+              enquiries through Google Ads and optimized landing pages.
+            </p>
+          </details>
+
+          <details class="border rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-gray-900">
+              Is LeadOps Studio affiliated with LeadOps.net?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              No. LeadOps Studio is an independent business and is not
+              affiliated with LeadOps.net or any other similarly named
+              companies.
+            </p>
+          </details>
+
+          <details class="border rounded-lg p-4">
+            <summary class="cursor-pointer font-medium text-gray-900">
+              Do you work only in Tamil Nadu?
+            </summary>
+            <p class="mt-2 text-gray-600">
+              We primarily serve Tamil Nadu but also provide online
+              consultations across India.
+            </p>
+          </details>
+        </div>
       </div>
     </section>
 
@@ -1174,21 +1263,17 @@
             <h4 class="text-white font-semibold mb-4">Services</h4>
             <ul class="space-y-2">
               <li>
-                <a
-                  href="services.html#websites"
-                  class="hover:text-white transition"
+                <a href="services.html#websites" class="hover:text-white"
                   >Lead-Focused Websites</a
                 >
               </li>
               <li>
-                <a href="services.html#ads" class="hover:text-white transition"
+                <a href="services.html#ads" class="hover:text-white"
                   >Google Search Ads</a
                 >
               </li>
               <li>
-                <a
-                  href="services.html#tracking"
-                  class="hover:text-white transition"
+                <a href="services.html#tracking" class="hover:text-white"
                   >Tracking & Reporting</a
                 >
               </li>
@@ -1198,19 +1283,16 @@
             <h4 class="text-white font-semibold mb-4">Company</h4>
             <ul class="space-y-2">
               <li>
-                <a href="process.html" class="hover:text-white transition"
-                  >Our Process</a
-                >
+                <a href="pricing.html" class="hover:text-white">Pricing</a>
               </li>
               <li>
-                <a href="audit.html" class="hover:text-white transition"
-                  >Free Audit</a
-                >
+                <a href="process.html" class="hover:text-white">Our Process</a>
               </li>
               <li>
-                <a href="contact.html" class="hover:text-white transition"
-                  >Contact</a
-                >
+                <a href="audit.html" class="hover:text-white">Free Audit</a>
+              </li>
+              <li>
+                <a href="contact.html" class="hover:text-white">Contact</a>
               </li>
             </ul>
           </div>
@@ -1218,22 +1300,20 @@
             <h4 class="text-white font-semibold mb-4">Get in Touch</h4>
             <ul class="space-y-2">
               <li>
-                <a href="tel:+919095506362" class="hover:text-white transition"
-                  >Call Us</a
-                >
+                <a href="tel:+919095506362" class="hover:text-white">Call Us</a>
               </li>
               <li>
                 <a
                   href="https://wa.me/919095506362?text=Hi%20LeadOps%20Studio%20%F0%9F%91%8B%0A%0AI%27m%20interested%20in%20generating%20more%20enquiries%20for%20my%20business.%0A%0AName%3A%0ABusiness%20Name%3A%0AWebsite%20%28if%20any%29%3A%0AService%20Interested%20In%3A%20%28Google%20Ads%20%2F%20Website%20%2F%20Tracking%20%2F%20Free%20Audit%29%0A%0AI%20reached%20you%20from%20your%20website."
                   target="_blank"
-                  class="hover:text-white transition"
+                  class="hover:text-white"
                   >WhatsApp</a
                 >
               </li>
               <li>
                 <a
                   href="mailto:leadopsstudio@gmail.com"
-                  class="hover:text-white transition"
+                  class="hover:text-white"
                   >Email</a
                 >
               </li>
@@ -1251,7 +1331,7 @@
               Email:
               <a
                 href="mailto:leadopsstudio@gmail.com"
-                class="text-gray-300 hover:text-white transition"
+                class="text-gray-300 hover:text-white"
                 >leadopsstudio@gmail.com</a
               >
             </p>
@@ -1269,13 +1349,11 @@
           >
             <p>&copy; 2025 LeadOps Studio. All rights reserved.</p>
             <p class="text-gray-500 mt-4">
-              <a href="privacy-policy.html" class="hover:text-white transition"
+              <a href="privacy-policy.html" class="hover:text-white"
                 >Privacy Policy</a
               >
               |
-              <a
-                href="terms-of-service.html"
-                class="hover:text-white transition"
+              <a href="terms-of-service.html" class="hover:text-white"
                 >Terms of Service</a
               >
             </p>
@@ -1288,7 +1366,7 @@
     <a
       href="https://wa.me/919095506362?text=Hi%20LeadOps%20Studio%20%F0%9F%91%8B%0A%0AI%27m%20interested%20in%20generating%20more%20enquiries%20for%20my%20business.%0A%0AName%3A%0ABusiness%20Name%3A%0AWebsite%20%28if%20any%29%3A%0AService%20Interested%20In%3A%20%28Google%20Ads%20%2F%20Website%20%2F%20Tracking%20%2F%20Free%20Audit%29%0A%0AI%20reached%20you%20from%20your%20website."
       target="_blank"
-      class="fixed bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition z-50"
+      class="fixed bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50"
     >
       <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
         <path
