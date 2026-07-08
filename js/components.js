@@ -92,7 +92,7 @@ function injectFloatingWhatsApp() {
 
   // Create widget container
   const widget = document.createElement("div");
-  widget.className = "fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none";
+  widget.className = "fixed bottom-6 right-6 z-50 flex flex-col items-end pointer-events-none transition-all duration-300";
   widget.id = "premium-whatsapp-widget";
 
   // Build the DOM content with premium tooltip
@@ -322,10 +322,17 @@ function injectStickyMobileCTA() {
   document.body.appendChild(cta);
 
   window.addEventListener("scroll", () => {
+    const waWidget = document.getElementById("premium-whatsapp-widget");
     if (window.scrollY > 300) {
       cta.classList.remove("translate-y-full");
+      if (waWidget) {
+        waWidget.style.bottom = "80px";
+      }
     } else {
       cta.classList.add("translate-y-full");
+      if (waWidget) {
+        waWidget.style.bottom = "";
+      }
     }
   });
 }
