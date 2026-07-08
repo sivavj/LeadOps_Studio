@@ -5,18 +5,16 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
-    content="LeadOps Studio is a Tamil Nadu–based web design and lead generation service helping local businesses get more calls, WhatsApp enquiries, and measurable results through conversion-focused websites and Google Ads." />
-  <title>
-    LeadOps Studio | Web Design & Lead Generation for Local Businesses in
-    Tamil Nadu
-  </title>
+    content="Our structured 5-step AI system integration process for local businesses. Learn how LeadOps Studio audits, designs, and deploys high-converting pipelines." />
+  <title>Our Process | LeadOps Studio</title>
+  <link rel="canonical" href="https://leadopsstudio.in/process.html" />
   <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="/favicon.ico" />
   <link rel="apple-touch-icon" href="/favicon.ico" />
-  <!-- Google Fonts - Poppins -->
+  <!-- Google Fonts - Poppins & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -24,32 +22,23 @@
         extend: {
           colors: {
             "brand-blue": "#2563eb",
+            "brand-dark-blue": "#0f172a",
             "brand-green": "#10b981",
+            "slate-950": "#030712"
           },
           fontFamily: {
-            sans: [
-              "Poppins",
-              "-apple-system",
-              "BlinkMacSystemFont",
-              "Segoe UI",
-              "Roboto",
-              "Oxygen",
-              "Ubuntu",
-              "Cantarell",
-              "sans-serif",
-            ],
-          },
+            sans: ["Inter", "sans-serif"],
+            display: ["Poppins", "sans-serif"]
+          }
         },
       },
     };
   </script>
   <style>
-    /* Apply Poppins globally */
-    body {
-      font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-    }
+    body { font-family: "Inter", sans-serif; }
+    h1, h2, h3, h4, h5, h6 { font-family: "Poppins", sans-serif; }
   </style>
+
   <!-- Google Tag Manager -->
   <script>
     (function (w, d, s, l, i) {
@@ -68,41 +57,42 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-HC42XS9W2G"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
+    function gtag() { dataLayer.push(arguments); }
     gtag("js", new Date());
-
     gtag("config", "G-HC42XS9W2G");
   </script>
 </head>
 
-<body class="bg-white text-gray-900">
+<body class="bg-slate-50 text-slate-900 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TPM5JR28" height="0" width="0"
       style="display: none; visibility: hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <!-- Navigation -->
-  <nav class="bg-white shadow-sm sticky top-0 z-50">
+
+  <!-- Navigation Bar -->
+  <nav class="sticky top-0 z-[60] bg-white/80 backdrop-blur-md border-b border-slate-100 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16">
+      <div class="flex justify-between items-center h-20">
         <div class="flex-shrink-0">
           <a href="index.html" class="flex items-center">
             <img src="/logo.png" alt="LeadOps Studio" class="h-10 w-auto" />
           </a>
         </div>
-        <div class="hidden md:block">
-          <div class="ml-10 flex items-baseline space-x-8">
-            <a href="index.html" class="text-gray-700 hover:text-brand-blue">Home</a>
-            <a href="services.html" class="text-gray-700 hover:text-brand-blue">Services</a>
-            <a href="pricing.html" class="text-gray-700 hover:text-brand-blue">Pricing</a>
-            <a href="process.html" class="text-brand-blue font-medium">Process</a>
-            <a href="audit.html" class="text-gray-700 hover:text-brand-blue">Free Audit</a>
-            <a href="contact.html" class="text-gray-700 hover:text-brand-blue">Contact</a>
-          </div>
+        <div class="hidden md:flex items-center space-x-8">
+          <a href="index.html" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Home</a>
+          <a href="services.html" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Services</a>
+          <a href="pricing.html" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Pricing</a>
+          <a href="process.html" class="text-blue-600 font-semibold transition-colors">Process</a>
+          <a href="audit.html" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Free Audit</a>
+          <a href="contact.html" class="text-slate-600 hover:text-blue-600 font-medium transition-colors">Contact</a>
+        </div>
+        <div class="hidden md:flex items-center">
+          <a href="audit.html" class="bg-slate-900 hover:bg-blue-600 text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-all duration-300 shadow-md">
+            Book Free Audit
+          </a>
         </div>
         <div class="md:hidden">
-          <button id="mobile-menu-button" class="text-gray-700 hover:text-brand-blue">
+          <button id="mobile-menu-button" class="text-slate-600 hover:text-blue-600 p-2 focus:outline-none" aria-label="Toggle Menu">
             <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
             </svg>
@@ -110,270 +100,171 @@
         </div>
       </div>
     </div>
-    <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
-      <div class="px-2 pt-2 pb-3 space-y-1">
-        <a href="index.html" class="block px-3 py-2 text-gray-700 hover:text-brand-blue">Home</a>
-        <a href="services.html" class="block px-3 py-2 text-gray-700 hover:text-brand-blue">Services</a>
-        <a href="process.html" class="block px-3 py-2 text-brand-blue font-medium">Process</a>
-        <a href="audit.html" class="block px-3 py-2 text-gray-700 hover:text-brand-blue">Free Audit</a>
-        <a href="contact.html" class="block px-3 py-2 text-gray-700 hover:text-brand-blue">Contact</a>
+    <!-- Mobile menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white/95 border-b border-slate-100 shadow-xl transition-all duration-300">
+      <div class="px-4 pt-2 pb-6 space-y-2">
+        <a href="index.html" class="block px-3 py-3 rounded-xl text-slate-700 hover:bg-slate-50 font-medium transition-colors">Home</a>
+        <a href="services.html" class="block px-3 py-3 rounded-xl text-slate-700 hover:bg-slate-50 font-medium transition-colors">Services</a>
+        <a href="pricing.html" class="block px-3 py-3 rounded-xl text-slate-700 hover:bg-slate-50 font-medium transition-colors">Pricing</a>
+        <a href="process.html" class="block px-3 py-3 rounded-xl bg-blue-50 text-blue-600 font-semibold">Process</a>
+        <a href="audit.html" class="block px-3 py-3 rounded-xl text-slate-700 hover:bg-slate-50 font-medium transition-colors">Free Audit</a>
+        <a href="contact.html" class="block px-3 py-3 rounded-xl text-slate-700 hover:bg-slate-50 font-medium transition-colors">Contact</a>
+        <div class="pt-4 px-3">
+          <a href="audit.html" class="block text-center bg-slate-900 text-white py-3 rounded-xl font-semibold shadow-md">
+            Book Free Audit
+          </a>
+        </div>
       </div>
     </div>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="bg-gradient-to-br from-blue-50 to-green-50 py-16 md:py-24">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center">
-        <h1 class="text-[30px] md:text-[40px] font-bold text-gray-900 mb-6 leading-[1.2]">
-          How We Work Together
-        </h1>
-        <p class="text-[15px] md:text-[17px] text-gray-700 max-w-3xl mx-auto leading-[1.6]">
-          Simple, transparent process. No long contracts. Clear communication
-          every step. Here's exactly how we help you get more calls and
-          WhatsApp leads.
-        </p>
-      </div>
+  <!-- Header Banner -->
+  <section class="py-20 bg-gradient-to-b from-blue-50/50 via-white to-slate-50 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+      <span class="text-xs font-extrabold tracking-wider text-blue-600 uppercase bg-blue-50 px-3.5 py-1 rounded-full border border-blue-100">
+        Our Framework
+      </span>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-900 tracking-tight">
+        How We Integrate AI Systems
+      </h1>
+      <p class="text-[15px] md:text-[17px] text-slate-600 max-w-2xl mx-auto leading-relaxed">
+        A structured, 5-phase engineering process to assess bottlenecks, build local SEO rankings, and deploy conversational robots with clear ROI attribution.
+      </p>
     </div>
   </section>
 
-  <!-- Process Steps -->
+  <!-- Process Timeline Section -->
   <section class="py-20 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="max-w-4xl mx-auto">
-        <div class="space-y-12">
-          <!-- Step 1 -->
-          <div class="flex flex-col md:flex-row items-start gap-6">
-            <div
-              class="flex-shrink-0 w-16 h-16 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-2xl">
-              1
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                Free Lead Audit (No Sales Pressure)
-              </h3>
-              <p class="text-lg text-gray-600 mb-4">
-                We check your website, Google presence, and tracking setup.
-                Then we send you a simple report showing what's working and
-                what's missing. No sales pitch—just honest feedback you can
-                use right away.
-              </p>
-              <a href="audit.html" class="text-brand-blue font-semibold hover:underline inline-flex items-center gap-2">
-                Get your free audit →
-              </a>
-            </div>
-          </div>
-
-          <!-- Step 2 -->
-          <div class="flex flex-col md:flex-row items-start gap-6">
-            <div
-              class="flex-shrink-0 w-16 h-16 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-2xl">
-              2
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                We Plan Together (Clear Communication)
-              </h3>
-              <p class="text-lg text-gray-600 mb-4">
-                We discuss your goals, budget, and what you want to achieve.
-                Then we set up tracking so you can see where every call comes
-                from. Everything is explained in simple terms—no technical
-                jargon. We only start after you're comfortable with the plan.
-              </p>
-            </div>
-          </div>
-
-          <!-- Step 3 -->
-          <div class="flex flex-col md:flex-row items-start gap-6">
-            <div
-              class="flex-shrink-0 w-16 h-16 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-2xl">
-              3
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                We Start Running Your Google Ads
-              </h3>
-              <p class="text-lg text-gray-600 mb-4">
-                Your ads show when people search for your services. We only
-                target keywords where people are ready to buy. Every ad links
-                to a fast website page with big call and WhatsApp buttons.
-                Simple and effective.
-              </p>
-            </div>
-          </div>
-
-          <!-- Step 4 -->
-          <div class="flex flex-col md:flex-row items-start gap-6">
-            <div
-              class="flex-shrink-0 w-16 h-16 bg-brand-blue text-white rounded-full flex items-center justify-center font-bold text-2xl">
-              4
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                You See Every Lead Come In
-              </h3>
-              <p class="text-lg text-gray-600 mb-4">
-                We track every call and WhatsApp message. You'll know exactly
-                which Google ad brought each customer. No guessing—just clear
-                reports showing what's working.
-              </p>
-            </div>
-          </div>
-
-          <!-- Step 5 -->
-          <div class="flex flex-col md:flex-row items-start gap-6">
-            <div
-              class="flex-shrink-0 w-16 h-16 bg-brand-green text-white rounded-full flex items-center justify-center font-bold text-2xl">
-              5
-            </div>
-            <div class="flex-1">
-              <h3 class="text-2xl md:text-3xl font-semibold mb-4">
-                Monthly Reports & Improvements (No Long Contracts)
-              </h3>
-              <p class="text-lg text-gray-600 mb-4">
-                Every month, you get a simple report: how many leads, cost per
-                lead, and what we improved. We stop ads that don't work and
-                focus on what brings you customers. No long-term contracts—you
-                can stop anytime if it's not working for you.
-              </p>
-            </div>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="relative border-l-2 border-slate-100 pl-8 space-y-16">
+        
+        <!-- Step 1 -->
+        <div class="relative">
+          <span class="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-lg">1</span>
+          <div class="space-y-2">
+            <h2 class="text-xl font-bold text-slate-900">Discovery & AI Growth Audit</h2>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              We review your existing loading speeds, mobile accessibility parameters, and search keyword gaps. We record and send a customized diagnosis video directly to your team outlining the highest impact leaks.
+            </p>
+            <span class="inline-block text-[10px] bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded uppercase mt-2">Duration: 24 Hours</span>
           </div>
         </div>
+
+        <!-- Step 2 -->
+        <div class="relative">
+          <span class="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-lg">2</span>
+          <div class="space-y-2">
+            <h2 class="text-xl font-bold text-slate-900">Custom System Design & Architecture</h2>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              Our technical team scopes your custom chatbot prompt guidelines, mapping directory parameters, negative keywords clusters, and designs conversion-focused web wireframes tailored for local clients.
+            </p>
+            <span class="inline-block text-[10px] bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded uppercase mt-2">Duration: 3-5 Days</span>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="relative">
+          <span class="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-lg">3</span>
+          <div class="space-y-2">
+            <h2 class="text-xl font-bold text-slate-900">Integration & Live Deployment</h2>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              We spin up official Meta WhatsApp API tokens, connect database pipelines, link tracking numbers, update canonical links, and publish optimized layouts onto search engines.
+            </p>
+            <span class="inline-block text-[10px] bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded uppercase mt-2">Duration: 5-7 Days</span>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="relative">
+          <span class="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-lg">4</span>
+          <div class="space-y-2">
+            <h2 class="text-xl font-bold text-slate-900">Automation Fine-Tuning</h2>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              We execute trial chats across the conversational pipeline to verify that calendar configurations match your hours, CRM tables logging lead inputs are clean, and review triggers activate correctly.
+            </p>
+            <span class="inline-block text-[10px] bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded uppercase mt-2">Duration: 2-3 Days</span>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="relative">
+          <span class="absolute -left-12 top-0 bg-blue-600 text-white w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs shadow-lg">5</span>
+          <div class="space-y-2">
+            <h2 class="text-xl font-bold text-slate-900">Continuous Optimization & Performance Reports</h2>
+            <p class="text-slate-600 text-xs sm:text-sm leading-relaxed">
+              We refine Google Ads placements weekly, check map listing indexes, check chatbot conversations logs to add new FAQ answers, and compile monthly lead attribution reports.
+            </p>
+            <span class="inline-block text-[10px] bg-slate-100 text-slate-500 font-bold px-2 py-0.5 rounded uppercase mt-2">Ongoing Support</span>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
-  <!-- CTA Section -->
-  <section class="py-20 bg-gradient-to-r from-brand-blue to-brand-green">
-    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-      <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">
-        Ready to Get More Leads?
-      </h2>
-      <p class="text-[15px] md:text-[17px] text-blue-50 mb-8 leading-[1.6]">
-        Start with a free audit. We'll check your website, Google presence,
-        and tracking—then show you exactly what's missing. No sales pressure,
-        no long contracts.
+  <!-- CTA Banner -->
+  <section class="py-20 bg-slate-900 text-white relative">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <h2 class="text-3xl font-extrabold tracking-tight">Ready to Kickstart Phase 1?</h2>
+      <p class="text-slate-400 text-xs sm:text-sm max-w-xl mx-auto">
+        Initiate your free analysis video. Our engineering team reviews maps index, site speed, and conversion barriers.
       </p>
-      <a href="audit.html"
-        class="inline-block bg-white text-brand-blue px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 shadow-lg hover:shadow-xl">
-        Get a Free Lead Audit
-      </a>
+      <div class="pt-4">
+        <a href="audit.html" class="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3.5 rounded-2xl font-bold text-xs shadow-md">
+          Request AI Audit Video
+        </a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
-  <footer class="bg-gray-900 text-gray-300 py-12">
+  <footer class="bg-slate-950 text-slate-400 py-16 border-t border-slate-900">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid md:grid-cols-4 gap-8">
-        <div>
-          <img src="/logo_dark.png" alt="LeadOps Studio" class="h-8 w-auto mb-4" />
-          <p class="mb-4">
-            Helping local businesses generate real enquiries through websites,
-            Google Ads, and smart tracking.
+      <div class="grid md:grid-cols-4 gap-8 mb-12">
+        <div class="space-y-4">
+          <img src="/logo_dark.png" alt="LeadOps Studio" class="h-8 w-auto" />
+          <p class="text-xs leading-relaxed">
+            Leading AI-powered business growth agency in Tamil Nadu. We deploy WhatsApp automations, map ranking engines, and speed-focused websites.
           </p>
         </div>
         <div>
-          <h4 class="text-white font-semibold mb-4">Services</h4>
-          <ul class="space-y-2">
-            <li>
-              <a href="services.html#websites" class="hover:text-white">Lead-Focused Websites</a>
-            </li>
-            <li>
-              <a href="services.html#ads" class="hover:text-white">Google Search Ads</a>
-            </li>
-            <li>
-              <a href="services.html#tracking" class="hover:text-white">Tracking & Reporting</a>
-            </li>
-            <li>
-              <a href="services.html#advanced-growth-services" class="hover:text-white">Advanced Growth Services</a>
-            </li>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">AI Solutions</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="/services/ai-whatsapp-automation.html" class="hover:text-white transition-colors">WhatsApp Automation</a></li>
+            <li><a href="/services/ai-chatbot-development.html" class="hover:text-white transition-colors">AI Chatbot Development</a></li>
+            <li><a href="/services/google-business-profile-optimization.html" class="hover:text-white transition-colors">GBP Optimization</a></li>
+            <li><a href="/services/local-seo-services.html" class="hover:text-white transition-colors">Local SEO Services</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="text-white font-semibold mb-4">Company</h4>
-          <ul class="space-y-2">
-            <li>
-              <a href="pricing.html" class="hover:text-white">Pricing</a>
-            </li>
-            <li>
-              <a href="process.html" class="hover:text-white">Our Process</a>
-            </li>
-            <li>
-              <a href="audit.html" class="hover:text-white">Free Audit</a>
-            </li>
-            <li>
-              <a href="contact.html" class="hover:text-white">Contact</a>
-            </li>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">SEO Resources</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="/blog/how-ai-helps-small-businesses.html" class="hover:text-white transition-colors">How AI Helps Small Businesses</a></li>
+            <li><a href="/blog/google-business-profile-ranking-guide.html" class="hover:text-white transition-colors">GBP Ranking Guide</a></li>
+            <li><a href="/blog/whatsapp-automation-guide.html" class="hover:text-white transition-colors">WhatsApp Automation Guide</a></li>
+            <li><a href="/blog/best-ai-tools-for-local-businesses.html" class="hover:text-white transition-colors">Best Local AI Tools</a></li>
           </ul>
         </div>
         <div>
-          <h4 class="text-white font-semibold mb-4">Get in Touch</h4>
-          <ul class="space-y-2">
-            <li>
-              <a href="tel:+919626756956" class="hover:text-white">Call Us</a>
-            </li>
-            <li>
-              <a href="https://wa.me/919626756956?text=Hi%20LeadOps%20Studio%20👋%0AI’d%20like%20to%20know%20more%20about%20your%20services."
-                target="_blank" class="hover:text-white">WhatsApp</a>
-            </li>
-            <li>
-              <a href="mailto:leadopsstudio@gmail.com" class="hover:text-white">Email</a>
-            </li>
+          <h4 class="text-white font-bold text-xs uppercase tracking-wider mb-4">Connect</h4>
+          <ul class="space-y-2 text-xs">
+            <li><a href="tel:+919626756956" class="hover:text-white transition-colors"><svg class="w-4 h-4 text-blue-500 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg> Call: +91 9626756956</a></li>
+            <li><a href="https://wa.me/919626756956?text=Hi%20LeadOps%20Studio%20👋" target="_blank" class="hover:text-white transition-colors"><svg class="w-4 h-4 text-emerald-500 inline-block mr-1" fill="currentColor" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.338 5.393.003 11.95 0a11.821 11.821 0 018.412 3.48 11.882 11.882 0 013.48 8.413c-.003 6.557-5.337 11.892-11.893 11.892-2.096-.001-4.14-.549-5.945-1.59L0 24zm6.305-1.654a9.882 9.882 0 005.683 1.448h.005c5.454 0 9.888-4.434 9.89-9.889a9.825 9.825 0 00-2.893-6.994A9.873 9.873 0 0012.05 4.01c-5.45 0-9.884 4.436-9.888 9.885-.002 2.097.548 4.143 1.51 5.26l.235.374L2.91 23.182l3.7-.936z"/></svg> WhatsApp Chat</a></li>
+            <li><a href="mailto:leadopsstudio@gmail.com" class="hover:text-white transition-colors"><svg class="w-4 h-4 text-blue-500 inline-block mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg> leadopsstudio@gmail.com</a></li>
           </ul>
         </div>
       </div>
-      <div class="border-t border-gray-800 mt-8 pt-8">
-        <div class="text-center mb-6">
-          <p class="text-white font-semibold mb-2">LeadOps Studio</p>
-          <p class="text-gray-400 text-sm mb-1">Tamil Nadu, India</p>
-          <p class="text-gray-400 text-sm mb-1">
-            Business Hours: Monday – Saturday, 9:00 AM – 9:00 PM IST
-          </p>
-          <p class="text-gray-400 text-sm mb-3">
-            Email:
-            <a href="mailto:leadopsstudio@gmail.com" class="text-gray-300 hover:text-white">leadopsstudio@gmail.com</a>
-          </p>
-          <p class="text-gray-500 text-xs max-w-2xl mx-auto leading-[1.5]">
-            LeadOps Studio is an independent web design and lead generation
-            service based in Tamil Nadu, India. We help local businesses
-            generate calls, WhatsApp enquiries, and high-quality leads through
-            conversion-focused websites and Google Ads. LeadOps Studio is not
-            affiliated with LeadOps.net or any other LeadOps-branded
-            companies.
-          </p>
-        </div>
-        <div class="text-center text-sm space-y-2 pt-6 border-t border-gray-800">
-          <p>&copy; 2025 LeadOps Studio. All rights reserved.</p>
-          <p class="text-gray-500 mt-4">
-            <a href="privacy-policy.html" class="hover:text-white">Privacy Policy</a>
-            |
-            <a href="terms-of-service.html" class="hover:text-white">Terms of Service</a>
-          </p>
+      <div class="border-t border-slate-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs">
+        <p>&copy; 2026 LeadOps Studio. All rights reserved. Registered in Tamil Nadu, India.</p>
+        <div class="flex gap-4">
+          <a href="privacy-policy.html" class="hover:text-white transition-colors">Privacy Policy</a>
+          <span>|</span>
+          <a href="terms-of-service.html" class="hover:text-white transition-colors">Terms of Service</a>
         </div>
       </div>
     </div>
   </footer>
 
-  <!-- Sticky WhatsApp Button -->
-  <a href="https://wa.me/919626756956?text=Hi%20LeadOps%20Studio%20👋%0AI’d%20like%20to%20know%20more%20about%20your%20services."
-    target="_blank"
-    class="fixed bottom-6 right-6 bg-brand-green text-white p-4 rounded-full shadow-lg hover:bg-green-600 z-50">
-    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-    </svg>
-  </a>
-
-  <!-- Minimal JavaScript -->
-  <script>
-    // Mobile menu toggle
-    document
-      .getElementById("mobile-menu-button")
-      .addEventListener("click", function () {
-        const menu = document.getElementById("mobile-menu");
-        menu.classList.toggle("hidden");
-      });
-  </script>
+  <script src="/js/components.js" defer></script>
 </body>
-
 </html>
