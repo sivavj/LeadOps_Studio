@@ -347,3 +347,51 @@ function injectStickyMobileCTA() {
     }
   });
 }
+
+/* ==========================================
+   6. LAZY-LOADED ANALYTICS SYSTEM (LCP & TBT OPTIMIZED)
+   ========================================== */
+function loadAnalytics() {
+  if (window.analyticsLoaded) return;
+  window.analyticsLoaded = true;
+
+  // 1. Google Tag Manager
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    var script = d.createElement(s);
+    script.async = true;
+    script.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(script, f);
+  })(window, document, "script", "dataLayer", "GTM-TPM5JR28");
+
+  // 2. Google Analytics (gtag.js)
+  var scriptGA = document.createElement("script");
+  scriptGA.async = true;
+  scriptGA.src = "https://www.googletagmanager.com/gtag/js?id=G-HC42XS9W2G";
+  document.head.appendChild(scriptGA);
+
+  scriptGA.onload = function () {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    window.gtag = gtag;
+    gtag("js", new Date());
+    gtag("config", "G-HC42XS9W2G");
+  };
+}
+
+// User interactions that trigger analytics loading
+const interactionEvents = ["mousemove", "scroll", "touchstart", "click"];
+interactionEvents.forEach((event) => {
+  window.addEventListener(event, loadAnalytics, { passive: true, once: true });
+});
+
+// Fallback to load analytics after 3.5 seconds
+window.addEventListener("load", () => {
+  setTimeout(loadAnalytics, 3500);
+});
