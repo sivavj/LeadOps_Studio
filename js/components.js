@@ -4,11 +4,22 @@
  */
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Mobile menu is critical for above-the-fold navigation
   initMobileMenu();
-  initStatsCounter();
-  injectFloatingWhatsApp();
-  injectExitIntentPopup();
-  injectStickyMobileCTA();
+
+  // Defer non-critical UI components to improve TBT and LCP
+  const deferComponents = () => {
+    initStatsCounter();
+    injectFloatingWhatsApp();
+    injectExitIntentPopup();
+    injectStickyMobileCTA();
+  };
+
+  if ("requestIdleCallback" in window) {
+    requestIdleCallback(() => deferComponents());
+  } else {
+    setTimeout(deferComponents, 100);
+  }
 });
 
 /* ==========================================
@@ -104,7 +115,7 @@ function injectFloatingWhatsApp() {
         <span class="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
       </span>
       <span>👋 Chat with our AI Growth Specialist</span>
-      <button id="close-wa-tooltip" class="text-gray-400 hover:text-gray-600 font-bold ml-1 text-sm">&times;</button>
+      <button id="close-wa-tooltip" aria-label="Close tooltip" class="text-gray-400 hover:text-gray-600 font-bold ml-1 text-sm">&times;</button>
     </div>
     
     <!-- Button -->
