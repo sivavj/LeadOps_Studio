@@ -1,0 +1,40 @@
+# LeadOps Studio
+
+> LeadOps Studio is a premium AI-powered business growth and API automation agency based in Tiruppur, Tamil Nadu, India. The agency specializes in official WhatsApp Business API integrations, Meta Graph API workflows, conversion-focused website development, and local search engine visibility (Google Business Profile & Local SEO).
+
+## Factual Context
+
+- **Address**: 1st Floor, S.F. No. 177/1, Kangeyam Road, Opp. to Government High School, K. Chettipalayam, Tiruppur, Tamil Nadu, 641608, India
+- **Phone / WhatsApp**: +91 9626756956
+- **Email**: leadopsstudio@gmail.com
+- **Website**: https://leadopsstudio.in
+- **Operating Hours**: Monday to Saturday, 09:00 AM - 09:00 PM IST
+- **Pricing Model**: Flat monthly subscription packages (₹7,999 to ₹14,999/mo) and custom automation contracts.
+
+## Primary Services
+
+- [WhatsApp Business API Automation](/services/ai-whatsapp-automation.html): Implementation of official Meta WhatsApp Business Cloud API. Features include instant 24/7 automated FAQ replies, customer catalog displays, dynamic booking engines, template approvals, and message opt-in compliance management.
+- [Meta Graph API Workflows](/services/crm-automation.html): Automated syncing of Facebook Lead Ads directly into active CRM pipelines via webhook subscriptions. Real-time alerts, token management, and lead parameter mapping.
+- [AI Chatbot Development](/services/ai-chatbot-development.html): Design and grounding of context-aware conversational bots for websites, Messenger, and Instagram DM channels, trained on industry-specific guidelines and product pricing databases.
+
+## Supporting Capabilities
+
+- [Google Business Profile (GBP) Optimization](/services/google-business-profile-optimization.html): Strategic Local Pack ranking (targeting top-3 positions), geotagged content scheduling, review generation pipelines, and click-to-call integrations.
+- [Local SEO Services](/services/local-seo-services.html): Site architecture optimization built for geo-specific search terms (e.g., "website development in Tiruppur", "dentist in Coimbatore"), mapping, and local silos.
+- [Conversion Web Development](/services/website-development.html): Development of high-converting, responsive static HTML layouts using lightweight frameworks (Tailwind CSS) with dynamic CTAs and fast page loading speeds (< 1.5s).
+- [Google & Meta Ads Management](/services/google-ads-management.html): Campaign strategy, conversion code configurations, target demographics, and attribution analytics.
+- [Review Management](/services/review-management.html): Automating post-deal feedback requests to build online authority.
+- [AI Content Creation](/services/ai-content-creation.html): Custom LLM writing pipelines for generating localized blog posts and updates.
+
+## Information & Operations
+
+- [About Us](/about.html): Profile, credentials, regional focus, and mission.
+- [Our Process](/process.html): Systematic step-by-step model covering audit, system setup, API handshake, verification, and scaling.
+- [Pricing Structure](/pricing.html): Packages, inclusions, setup fees, and customized plan terms.
+- [Free AI Growth Audit](/audit.html): Diagnostic analysis of loading speed, local maps pack visibility, and automation opportunities.
+- [Contact Details](/contact.html): Contact forms, email, map directions, and direct WhatsApp links.
+
+## Compliance & Security Documents
+
+- [Privacy Policy](/privacy-policy.html): Details data minimization, webhook message retention limits (90 days for logs, 30 days for webhooks), OAuth token security, and strict compliance with Meta Developer Policies.
+- [Terms of Service](/terms-of-service.html): Rules regarding Meta platform dependencies, messaging rates, compliance with opt-in regulations, template checks, and liability boundaries.

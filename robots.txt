@@ -2,6 +2,9 @@
 User-agent: *
 Allow: /
 
+# AI crawlers index outline
+# llms-txt: https://leadopsstudio.in/llms.txt
+
 User-agent: GPTBot
 Allow: /
 
